@@ -23,6 +23,7 @@ body{
     padding: 25px;
     box-shadow: 0 5px 10px rgba(0, 0, 0,0.1);
     position:relative;
+    margin-right: 18px;
     
 }
 
@@ -74,7 +75,7 @@ body{
     font-size: 15px;
     font-weight: 400;
 }
-.profile-card .media-buttons{
+/* .profile-card */ .media-buttons{ 
     display: flex;
     align-items: center;
     margin-top: 10px;
@@ -111,7 +112,7 @@ body{
     padding: 8px 24px;
     background-color: #4070f4;
     cursor: pointer;
-    transition: all 0.3s ease;
+     transition: all 1.9s ease;  
 
 }
 .buttons .button:hover{
