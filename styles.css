@@ -4,28 +4,54 @@
  
 }
 
-body{
+/* body{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f4f4f4;
 
+} */
+
+.controlbox{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+  
+    /* position: relative;
+    left: 0;
+    margin-bottom: 10px; */
+    
 }
+/* .controlbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+} */
+
 .profile-card{
     display: flex;
     align-items: center;
+   
     flex-direction: column;
-    max-width: 370px;
+    max-width: 280px;
     width: 100%;
+   
     background: #fff;
     border-radius: 24px;
     padding: 25px;
     box-shadow: 0 5px 10px rgba(0, 0, 0,0.1);
     position:relative;
     margin-right: 18px;
+    z-index: 10;
+
     
 }
+
 
 .profile-card::before{
     content: "";
@@ -35,7 +61,7 @@ body{
     height: 36%;
     width: 100%;
     border-radius: 24px 24px 0 0;
-    background-color: #4070f4;
+    background-color: #140B5C;
 }
 .image{
     display: flex;
@@ -45,7 +71,7 @@ body{
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background-color: #4070f4;
+    background-color: #140B5C;
     padding: 3px;
     margin-bottom: 10px;
 }
@@ -75,7 +101,7 @@ body{
     font-size: 15px;
     font-weight: 400;
 }
-/* .profile-card */ .media-buttons{ 
+ .profile-card  .media-buttons{ 
     display: flex;
     align-items: center;
     margin-top: 10px;
@@ -91,7 +117,7 @@ body{
     width: 34px;
     border-radius: 50%;
     margin: 0 8px;
-    background-color: #4070f4;
+    background-color: #140B5C;
     text-decoration: none;
 
 }
@@ -110,9 +136,9 @@ body{
     border-radius: 24px;
     margin: 0 10px;
     padding: 8px 24px;
-    background-color: #4070f4;
+    background-color: #140B5C;
     cursor: pointer;
-     transition: all 1.9s ease;  
+     transition: all 2.9s ease;  
 
 }
 .buttons .button:hover{
@@ -144,3 +170,40 @@ body{
     border-right: none;
 
 }
+
+.cardheader{
+ display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); 
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    gap: 10px;
+    overflow: hidden;
+    /* height: auto; 
+    width: 100%; */
+    align-items: center;
+    margin-right: 20px;
+    
+} 
+
+.card1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    align-items: center;
+
+  }
+
+  @media screen and (max-width: 600px){
+    .controlbox{
+        width: 100%;
+       display: grid;
+       /* grid-template-columns: auto auto; */
+       gap: 20px;
+       margin-left: 10px;
+      position: relative;
+      margin-bottom: 10px;
+      height: auto;
+     
+      
+    
+    }
+
+    }

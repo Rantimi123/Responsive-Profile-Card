@@ -6,15 +6,207 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" type="" href="styles.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navstyle.css">
     <title>Responsive Profile Class</title>
 </head>
 <body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#"><img src="logo-prim.png"></a></div>
+      <label for="toggler"><i class="fa-sharp fa-solid fa-bars"></i></label>
+      <input type="checkbox" id="toggler" name="toggler">
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name"></span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">HOME</a></li>
+          <li>
+            <a href="#">HTML & CSS</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Login Forms</a></li>
+              <li><a href="#">Card Design</a></li>
+              <li class="more">
+                <span><a href="#">More</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Neumorphism</a></li>
+                  <li><a href="#">Pre-loader</a></li>
+                  <li><a href="#">Glassmorphism</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">JAVASCRIPT</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Dynamic Clock</a></li>
+              <li><a href="#">Form Validation</a></li>
+              <li><a href="#">Card Slider</a></li>
+              <li><a href="#">Complete Website</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<header class="cardheader">
+  <div class="card1"><img src="h20.jpg"></div>
+  <div class="card1"><img src="h2o1.jpg"></div>
+  <div class="card1"><img src="h2o2.jpg"></div>
+</header>
+
+<div class="controlbox">
     <div class="profile-card">
         <div class="image">
             <img src="avatar.jpg" alt="profile" class="profile-img">
         </div>
         <div class="text-data">
             <span class="name">Ibukun Blessing</span>
+            <span class="Job">Web Developer</span>
+        </div>
+         <div class="media-buttons">
+            <a href="#" style="background: #4267b2" class="link">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" style="background: #e1306c" class="link">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#" style="background: #ff0000" class="link">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" style="background: #1da1f2" class="link">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+         </div>
+
+         <div class="buttons">
+            <div class="button">Subscribe</div>
+            <div class="button">Message</div>
+         </div>
+         <div class="analytics">
+            <div class="data">
+                <i class="fa-regular fa-heart"></i>
+                <span class="number">100k</span>
+            </div>
+            <div class="data">
+                <i class="fa-regular fa-message"></i>
+                <span class="number">100k</span>
+            </div>
+            <div class="data">
+                <i class="fa-sharp fa-regular fa-heart"></i>
+                <span class="number">100k</span>
+            </div>
+         </div>
+    </div>
+
+    <div class="profile-card">
+      <div class="image">
+          <img src="avatar.jpg" alt="profile" class="profile-img">
+      </div>
+      <div class="text-data">
+          <span class="name">Juwon D Guru</span>
+          <span class="Job">Web Developer</span>
+      </div>
+       <div class="media-buttons">
+          <a href="#" style="background: #4267b2" class="link">
+              <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#" style="background: #e1306c" class="link">
+              <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#" style="background: #ff0000" class="link">
+              <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#" style="background: #1da1f2" class="link">
+              <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+       </div>
+
+       <div class="buttons">
+          <div class="button">Subscribe</div>
+          <div class="button">Message</div>
+       </div>
+       <div class="analytics">
+          <div class="data">
+              <i class="fa-regular fa-heart"></i>
+              <span class="number">80k</span>
+          </div>
+          <div class="data">
+              <i class="fa-regular fa-message"></i>
+              <span class="number">70k</span>
+          </div>
+          <div class="data">
+              <i class="fa-sharp fa-regular fa-heart"></i>
+              <span class="number">60k</span>
+          </div>
+       </div>
+  </div>
+  <div class="profile-card">
+    <div class="image">
+        <img src="avatar.jpg" alt="profile" class="profile-img">
+    </div>
+    <div class="text-data">
+        <span class="name">Tolu D Master</span>
+        <span class="Job">Web Developer</span>
+    </div>
+     <div class="media-buttons">
+        <a href="#" style="background: #4267b2" class="link">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" style="background: #e1306c" class="link">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" style="background: #ff0000" class="link">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" style="background: #1da1f2" class="link">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+     </div>
+
+     <div class="buttons">
+        <div class="button">Subscribe</div>
+        <div class="button">Message</div>
+     </div>
+     <div class="analytics">
+        <div class="data">
+            <i class="fa-regular fa-heart"></i>
+            <span class="number">100k</span>
+        </div>
+        <div class="data">
+            <i class="fa-regular fa-message"></i>
+            <span class="number">50k</span>
+        </div>
+        <div class="data">
+            <i class="fa-sharp fa-regular fa-heart"></i>
+            <span class="number">40k</span>
+        </div>
+     </div>
+</div>
+
+    <div class="profile-card">
+        <div class="image">
+            <img src="avatar.jpg" alt="profile" class="profile-img">
+        </div>
+        <div class="text-data">
+            <span class="name">Njoku D Great</span>
             <span class="Job">Web Developer</span>
         </div>
          <div class="media-buttons">
@@ -51,47 +243,109 @@
             </div>
          </div>
     </div>
-    <div class="profile-card">
-        <div class="image">
-            <img src="avatar.jpg" alt="profile" class="profile-img">
-        </div>
-        <div class="text-data">
-            <span class="name">Ibukun Blessing</span>
-            <span class="Job">Web Developer</span>
-        </div>
-         <div class="media-buttons">
-            <a href="#" style="background: #4267b2" class="link">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <a href="#" style="background: #e1306c" class="link">
-                <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="#" style="background: #ff0000" class="link">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#" style="background: #1da1f2" class="link">
-                <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-         </div>
+  
+</div>
 
-         <div class="buttons">
-            <div class="button">Subscribe</div>
-            <div class="button">Message</div>
-         </div>
-         <div class="analytics">
-            <div class="data">
-                <i class="fa-regular fa-heart"></i>
-                <span class="number">60k</span>
+    <footer>
+        <div class="content">
+          <div class="top">
+            <div class="logo-details">
+              <!-- <i class="fab fa-slack"></i> -->
+              <span class="logo_name"><img src="logo-prim.png"></span>
             </div>
-            <div class="data">
-                <i class="fa-regular fa-message"></i>
-                <span class="number">60k</span>
+            <div class="media-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
-            <div class="data">
-                <i class="fa-sharp fa-regular fa-heart"></i>
-                <span class="number">60k</span>
-            </div>
-         </div>
-    </div>
+          </div>
+          <div class="link-boxes">
+            <ul class="box">
+              <li class="link_name">Company</li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Get started</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Services</li>
+              <li><a href="#">App design</a></li>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Logo design</a></li>
+              <li><a href="#">Banner design</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Account</li>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">Prefrences</a></li>
+              <li><a href="#">Purchase</a></li>
+            </ul>
+            <ul class="box">
+              <li class="link_name">Courses</li>
+              <li><a href="#">HTML & CSS</a></li>
+              <li><a href="#">JavaScript</a></li>
+              <li><a href="#">Photography</a></li>
+              <li><a href="#">Photoshop</a></li>
+            </ul>
+            <ul class="box input-box">
+              <li class="link_name">Subscribe</li>
+              <li><input type="text" placeholder="Enter your email"></li>
+              <li><input type="button" value="Subscribe"></li>
+            </ul>
+          </div>
+        </div>
+        <div class="bottom-details">
+          <div class="bottom_text">
+            <span class="copyright_text">Copyright © 2023 <a href="#">Primemediasoft.</a>All rights reserved</span>
+            <span class="policy_terms">
+              <a href="#">Privacy policy</a>
+              <a href="#">Terms & condition</a>
+            </span>
+          </div>
+        </div>
+      </footer>
+      <!-- <script>
+        let navbar = document.querySelector(".navbar");
+let searchBox = document.querySelector(".search-box .bx-search");
+// let searchBoxCancel = document.querySelector(".search-box .bx-x");
+
+searchBox.addEventListener("click", ()=>{
+  navbar.classList.toggle("showInput");
+  if(navbar.classList.contains("showInput")){
+    searchBox.classList.replace("bx-search" ,"bx-x");
+  }else {
+    searchBox.classList.replace("bx-x" ,"bx-search");
+  }
+});
+
+// sidebar open close js code
+let navLinks = document.querySelector(".nav-links");
+let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+menuOpenBtn.onclick = function() {
+navLinks.style.left = "0";
+}
+menuCloseBtn.onclick = function() {
+navLinks.style.left = "-100%";
+}
+
+
+// sidebar submenu open close js code
+let htmlcssArrow = document.querySelector(".htmlcss-arrow");
+htmlcssArrow.onclick = function() {
+ navLinks.classList.toggle("show1");
+}
+let moreArrow = document.querySelector(".more-arrow");
+moreArrow.onclick = function() {
+ navLinks.classList.toggle("show2");
+}
+let jsArrow = document.querySelector(".js-arrow");
+jsArrow.onclick = function() {
+ navLinks.classList.toggle("show3");
+}
+      </script> -->
 </body>
 </html>
